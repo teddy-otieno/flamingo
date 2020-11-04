@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 16pt;
+  background-color: #AE3750;
+  color: white;
+  box-shadow: 0 0 4pt #00000052;
+}
+body header p {
+  cursor: pointer;
+}
+body header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+body header ul li a {
+  padding: 4pt 8pt;
+  text-decoration: none;
+  color: white;
+}
